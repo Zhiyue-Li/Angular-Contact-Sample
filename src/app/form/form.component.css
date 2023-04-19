@@ -1,0 +1,28 @@
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+.input {
+  padding: 5px;
+  margin: 3px;
+  border: 1px solid lightgray;
+}
+
+.btn {
+  padding: 5px;
+  margin: 3px;
+  background-color: green;
+  border: 1px solid green;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  border: 1px solid lightgreen;
+  color: black;
+}

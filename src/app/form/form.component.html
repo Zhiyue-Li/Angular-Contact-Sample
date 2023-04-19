@@ -1,0 +1,13 @@
+<form [formGroup]="userForm" class="form">
+  <h1>Contact Form</h1>
+
+  <input class="input" placeholder="Name" formControlName="name" />
+
+  <input class="input" placeholder="Email" formControlName="email" />
+
+  <input class="input" placeholder="Website" formControlName="website" />
+
+  <button class="btn" (click)="onSubmit()">Add</button>
+</form>
+
+<a href="" routerLink="/">Back to List</a>
